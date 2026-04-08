@@ -1,0 +1,12 @@
+lista1=[1,2,3,4,5]
+del(lista1[0])
+print(lista1)
+
+"""Tenemos varias formas de eliminar o quitar
+elementos de una lista. Mientras que pop devuelve
+el elemento que se elimina de la lista, del lo elimina
+sin devolvernos nada. No solo podemos eliminar un elemento con del,
+también podríamos eliminar toda la lista."""
+#eliminar lista
+del(lista1)
+print(lista1)
